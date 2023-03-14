@@ -18,7 +18,7 @@ function adicionaLinha(){
     const inputTel = document.getElementById('telefone')
 
     if (tel.includes(inputTel.value)){
-        alert(`O número ${tel} pertence a alguém já incluído na agenda!`)
+        alert(`Esse número pertence a alguém já incluído na agenda!`)
     } else {
         nomes.push(inputNome.value)
         tel.push(inputTel.value)
